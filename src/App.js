@@ -5,7 +5,7 @@ import { AddTimerField } from "./components/molecules/AddTimerField/AddTimerFiel
 
 function App() {
   return (
-    <Container maxWidth='sm'>
+    <Container maxWidth='xs'>
         <Logo title='tracker' />
         <AddTimerField />
     </Container>

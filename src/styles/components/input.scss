@@ -1,0 +1,12 @@
+.input {
+  border-radius: 20px;
+  border: 1px solid gray;
+  height: 30px;
+  outline: none;
+  width: inherit;
+  padding-left: 15px;
+
+  &__wrapper {
+    width: 100%;
+  }
+}
