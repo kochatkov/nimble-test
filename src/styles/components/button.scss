@@ -1,0 +1,17 @@
+.button {
+  &-add {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    width: 37px;
+    background: transparent;
+    outline: none;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+}
