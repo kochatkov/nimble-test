@@ -6,8 +6,12 @@ const timerItemsStateInit = [];
 
 const timerItems = handleActions({
     [actions.addTimer.SUCCESS](state, { payload }) {
-      return timerItemsStateInit
+
+      return [...state, payload];
     },
+  [actions.removeTimer.SUCCESS](state, { payload }) {
+    return payload;
+  },
     [actions.clearAll.TRIGGER](state) {
       return timerItemsStateInit
     }

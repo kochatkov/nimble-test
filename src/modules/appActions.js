@@ -7,3 +7,4 @@ const createTriggerBound = createTriggerRoutine.bind(null, prefix);
 
 export const clearAll = createTriggerBound('CLEAR_ALL');
 export const addTimer = createRequestBound('ADD_TIMER_TO_LIST');
+export const removeTimer = createRequestBound('REMOVE_TIMER_FROM_LIST');

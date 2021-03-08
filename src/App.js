@@ -1,13 +1,14 @@
 import React from 'react';
-import { Logo } from "./components/atoms/Logo/Logo";
 import { Container } from "@material-ui/core";
-import { AddTimerField } from "./components/molecules/AddTimerField/AddTimerField";
+
+import { Logo } from "./components/atoms/Logo/Logo";
+import { TimerPanelComponent } from "./components/templates/TimerPanelComponent/TinerPanelComponent";
 
 function App() {
   return (
     <Container maxWidth='xs'>
-        <Logo title='tracker' />
-        <AddTimerField />
+      <Logo title='tracker' />
+      <TimerPanelComponent />
     </Container>
   );
 }
